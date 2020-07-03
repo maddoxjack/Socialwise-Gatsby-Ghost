@@ -1,7 +1,29 @@
 import React from 'react'
 
 const StripOne = () => (
-    <h1>This is Strip One</h1>
+    <>
+        <h2>
+        You can&apos;t find your Twitter community and it&apos;s starting to get
+        frustrating.
+        </h2>
+        <>
+            <h3>Socialwise Benefits:</h3>
+        </>
+        <ul>
+            <li>✅ No need to learn any complicated tools. We’ve pre-vetted the users and built the searches.
+            </li>
+            <li>✅ We use proprietary search algorithms to pre-vet users talking about things that matter to you.
+
+            </li>
+            <li>✅ Our setup prevents us from being a noise amplifier and to show only relevant communities.
+
+            </li>
+            <li>✅ Our setup prevents us from being a noise amplifier and to show only relevant communities.
+
+            </li>
+        </ul>
+        <h3>Focus on Growth. Not learning new tools.</h3>
+    </>
 )
 
 export default StripOne

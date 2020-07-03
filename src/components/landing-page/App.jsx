@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
+import Hero from './Hero/Hero'
 import StripOne from './Strip-1-Problem/Strip1Problem'
 import StripTwo from './Strip-2-Community/Strip2Community'
 import StripThree from './Strip-3-Comp/Strip3Community'
@@ -13,10 +14,10 @@ import '../../styles/app.css'
 function App(){
     return (
         <>
-            <h1>This will be the Landing Page</h1>
             <Link to="/blog">
-                <h1>This is the link to Blog</h1>
+                <h1>Blog</h1>
             </Link>
+            <Hero/>
             <StripOne />
             <StripTwo />
             <StripThree />
