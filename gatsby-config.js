@@ -1,24 +1,24 @@
-const path = require(`path`);
+const path = require(`path`)
 
-const config = require(`./src/utils/siteConfig`);
-const generateRSSFeed = require(`./src/utils/rss/generate-feed`);
+const config = require(`./src/utils/siteConfig`)
+const generateRSSFeed = require(`./src/utils/rss/generate-feed`)
 
-let ghostConfig;
+let ghostConfig
 
 try {
-    ghostConfig = require(`./.ghost`);
+    ghostConfig = require(`./.ghost`)
 } catch (e) {
     ghostConfig = {
         production: {
             apiUrl: process.env.GHOST_API_URL,
             contentApiKey: process.env.GHOST_CONTENT_API_KEY,
         },
-    };
+    }
 } finally {
     const { apiUrl, contentApiKey } =
         process.env.NODE_ENV === `development`
             ? ghostConfig.development
-            : ghostConfig.production;
+            : ghostConfig.production
 
     if (!apiUrl || !contentApiKey || contentApiKey.match(/<key>/)) {
         throw new Error(
@@ -196,5 +196,6 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
+        `gatsby-plugin-sass`,
     ],
-};
+}

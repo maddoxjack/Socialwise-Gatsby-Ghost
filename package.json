@@ -39,6 +39,7 @@
   "dependencies": {
     "@tryghost/helpers": "1.1.27",
     "@tryghost/helpers-gatsby": "1.0.31",
+    "bulma": "^0.9.0",
     "cheerio": "1.0.0-rc.3",
     "gatsby": "2.23.12",
     "gatsby-awesome-pagination": "0.3.6",
@@ -50,12 +51,14 @@
     "gatsby-plugin-manifest": "2.4.14",
     "gatsby-plugin-offline": "3.2.13",
     "gatsby-plugin-react-helmet": "3.3.6",
+    "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "2.6.14",
     "gatsby-source-filesystem": "2.3.14",
     "gatsby-source-ghost": "^4.0.5",
     "gatsby-transformer-sharp": "2.5.7",
     "kind-of": "^6.0.3",
     "lodash": "4.17.19",
+    "node-sass": "^4.14.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.1.0"
