@@ -9,45 +9,26 @@ const Hero = () => (
     <section className="hero">
         <div className="hero-body">
             <div className="container">
-                <h1 className="title is-size-1-mobile">
+                <h1 className="title is-size-1-mobile has-text-left-mobile">
                     Community Discovery Done for You
                 </h1>
-                <h2 className="sub-title is-size-3">
+                <h2 className="sub-title is-size-3 has-text-left-mobile pb-6">
                     Socialwise is a Twitter dashboard that will increase your
                     reach and grow your community. Built for you by our search
                     experts.
                 </h2>
                 <div className="break"></div>
-                {/* <img
-                    className="dashboard"
-                    src={dashboard}
-                    alt="Socialwise Dashboard"
-                /> */}
-                <HeroImg/>
-                <button className="button is-primary is-large is-full-width">
-                    See what streaming content looks like
-                </button>
+                <div className="button-wrapper">
+                    <button className="button is-primary is-large is-full-width">
+                        See what streaming content looks like
+                    </button>
+                </div>
+                <div className="dashboard-wrapper is-hidden-mobile">
+                    <HeroImg />
+                </div>
             </div>
         </div>
     </section>
 )
-
-// const Hero = () => (
-//     <div className="hero-wrapper">
-//         <h1 className="hero is-size-1-mobile">
-//             Community Discovery Done for You
-//         </h1>
-//         <h2 className="hero-sub is-size-3-mobile">
-//             Socialwise is a Twitter dashboard that will increase your reach and
-//             grow your community. Built for you by our search experts.
-//         </h2>
-//         <div className="break"></div>
-//         <button className="button is-primary">
-//             See what streaming content looks like
-//         </button>
-
-//         <img className="dashboard" src={dashboard} alt="Socialwise Dashboard" />
-//     </div>
-// )
 
 export default Hero

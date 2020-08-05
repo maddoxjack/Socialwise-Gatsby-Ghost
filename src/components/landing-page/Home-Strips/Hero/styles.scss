@@ -49,7 +49,12 @@
 
 .sub-title {
     text-align: center;
-    width: 80%;
     font-weight: normal;
     margin: auto;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
