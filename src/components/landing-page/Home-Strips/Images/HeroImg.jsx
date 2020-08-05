@@ -7,7 +7,7 @@ export default function HeroImg() {
     const data = useStaticQuery(
         graphql`
         query {
-               dashboard: file(relativePath: { eq: "dashboard.png" }) { 
+               dashboard: file(relativePath: { eq: "dashboard-small.webp" }) { 
                    childImageSharp {
                        # Specify the image processing specifications right in the query.
                        # Makes it trivial to update as your page's design changes.
