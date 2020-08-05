@@ -1,7 +1,9 @@
 import React from "react"
 import '../../../../styles/bul-styles.scss'
 import './styles.scss'
-import dashboard from '../Images/dashboard.png'
+// import dashboard from '../Images/dashboard.png'
+
+import HeroImg from '../Images/HeroImg'
 
 const Hero = () => (
     <section className="hero">
@@ -16,11 +18,12 @@ const Hero = () => (
                     experts.
                 </h2>
                 <div className="break"></div>
-                <img
+                {/* <img
                     className="dashboard"
                     src={dashboard}
                     alt="Socialwise Dashboard"
-                />
+                /> */}
+                <HeroImg/>
                 <button className="button is-primary is-large is-full-width">
                     See what streaming content looks like
                 </button>
