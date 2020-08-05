@@ -37,7 +37,7 @@ const NavBarHomePage = () => (
                     <a className="navbar-link">Other Offerings</a>
 
                     <div className="navbar-dropdown">
-                        <a className="navbar-item">Enterprise</a>
+                        <a className="navbar-item"><Link to="/enterprise">Enterprise</Link></a>
                         <a className="navbar-item">Football</a>
                         <a className="navbar-item">Contact</a>
                         <hr className="navbar-divider"></hr>

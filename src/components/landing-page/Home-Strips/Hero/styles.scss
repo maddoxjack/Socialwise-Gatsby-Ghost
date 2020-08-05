@@ -1,0 +1,55 @@
+// .hero-wrapper {
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: row;
+//     max-width: 80%;
+//     margin-top: 8%;
+// }
+
+// h1.hero {
+//     text-align: center;
+//     font-size: 5rem;
+//     font-weight: bolder;
+//     width: 100%;
+// }
+
+// h2.hero-sub {
+//     text-align: center;
+//     font-size: 2.5rem;
+//     font-weight: normal;
+//     width: 60%;
+// }
+
+// button.hero-button {
+//     width: 30%;
+// }
+
+// img.dashboard {
+//     max-width: 90%;
+// }
+
+.break {
+    width: 100%;
+}
+
+.hero-body {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 5rem;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.sub-title {
+    text-align: center;
+    width: 80%;
+    font-weight: normal;
+    margin: auto;
+}

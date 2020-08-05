@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import Hero from "./Hero/Hero";
 import StripOne from "./Strip-1-Problem/Strip1Problem";
 import StripTwo from "./Strip-2-Community/Strip2Community";
@@ -10,6 +9,7 @@ import StripSix from "./Strip-6-Why/Strip6Why";
 import StripSeven from "./Strip-7-Process/Strip7Process";
 import StripEight from "./Strip-8-Stop/Strip8Process";
 import "../../../styles/bul-styles.scss";
+import "./styles.scss";
 
 const HomePage = () => (
     <>
