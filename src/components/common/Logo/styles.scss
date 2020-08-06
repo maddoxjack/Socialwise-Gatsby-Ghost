@@ -1,3 +1,5 @@
+@import "../../../styles/bul-styles.scss";
+
 #logo {
     flex-direction: row;
     align-items: center;
@@ -11,13 +13,23 @@
     text-decoration: none;
     img {
         width: 50px;
-        margin: 0;
-        margin-left: 15px;
     }
     &.small {
         font-size: 24px;
         img {
             width: 34px;
+            margin-left: 10px;
         }
+    }
+}
+
+.navbar-burger {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+@media only screen and (max-width: $tablet) {
+    #logo {
+        margin-left: 0;
     }
 }

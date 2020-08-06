@@ -15,4 +15,10 @@ $success: #00d1b2;
 $lowOpacityGrey: rgba($lightGrey, 0.25);
 $grey: darken($lightGrey, 20);
 
+$mobile: 768px;
+$tablet: 769px;
+$desktop: 1024px;
+$widescreen: 1216px;
+$fullhd: 1408px;
+
 @import "~bulma/bulma.sass";
