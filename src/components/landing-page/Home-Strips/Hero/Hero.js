@@ -7,7 +7,7 @@ import HeroImg from '../Images/HeroImg'
 const Hero = () => (
     <section className="hero">
         <div className="hero-body">
-            <div className="container">
+            <div className="hero-container">
                 <h1 className="title is-size-1-mobile has-text-left-mobile">
                     Community Discovery Done for You
                 </h1>

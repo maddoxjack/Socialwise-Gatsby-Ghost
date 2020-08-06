@@ -10,23 +10,21 @@ import StripSeven from "./Strip-7-Process/Strip7Process"
 import StripEight from "./Strip-8-Stop/Strip8Process"
 import "../../../styles/bul-styles.scss"
 import "./styles.scss"
-import { Helmet } from 'react-helmet'
 
 const HomePage = () => (
-    <><Helmet>
-        <body className="navbar is-fixed-top" />
-    </Helmet>
-    <main id="homePage">
-        <Hero />
-        <StripOne />
-        <StripTwo />
-        <StripThree />
-        <StripFour />
-        <StripFive />
-        <StripSix />
-        <StripSeven />
-        <StripEight />
-    </main>
+    <>
+        <main id="homePage">
+            
+            <Hero />
+            <StripOne />
+            <StripTwo />
+            <StripThree />
+            <StripFour />
+            <StripFive />
+            <StripSix />
+            <StripSeven />
+            <StripEight />
+        </main>
     </>
 )
 
