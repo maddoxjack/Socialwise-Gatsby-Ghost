@@ -50,7 +50,7 @@ export default function NavBarHomePage() {
 
                         <div className="navbar-dropdown">
                             <a className="navbar-item"><Link to="/enterprise" style={linkStyle}>Enterprise</Link></a>
-                            <a className="navbar-item is-black">
+                            <a className="navbar-item">
                                 <Link to="/football" style={linkStyle}>Football
                                 </Link>
                             </a>

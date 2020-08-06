@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
 export default function HeroImg() {
-    console.log(`helllllooo`)
     const data = useStaticQuery(
         graphql`
         query {
@@ -19,8 +18,6 @@ export default function HeroImg() {
            }
       `
     )
-    console.log(`this is data`, data)
-
     return (
         <Img fluid={data.dashboard.childImageSharp.fluid}/>
                 
