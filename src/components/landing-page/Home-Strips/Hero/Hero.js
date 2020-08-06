@@ -1,6 +1,6 @@
 import React from "react"
-import './styles.scss'
 import '../../../../styles/bul-styles.scss'
+import './styles.scss'
 
 import HeroImg from '../Images/HeroImg'
 

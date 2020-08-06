@@ -5,7 +5,7 @@ const StripOne = () => (
         <div className="strip-one-body">
             <div className="strip-one-container">
 
-                <h2 className="section-title">
+                <h2 className="strip-one-title">
             You can&apos;t find your Twitter community and it&apos;s starting to
             get frustrating.
                 </h2>
