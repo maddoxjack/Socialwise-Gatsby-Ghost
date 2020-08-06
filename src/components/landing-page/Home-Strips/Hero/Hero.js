@@ -8,7 +8,7 @@ const Hero = () => (
     <section className="hero">
         <div className="hero-body">
             <div className="hero-container">
-                <h1 className="title is-1 is-size-2-mobile has-text-left-mobile">
+                <h1 className="title has-text-weight-bold is-1 is-size-2-mobile has-text-left-mobile">
                     Community Discovery Done for You
                 </h1>
                 <h2 className="sub-title is-size-3 has-text-left-mobile pb-6">
