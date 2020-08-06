@@ -6,10 +6,8 @@ import { Helmet } from 'react-helmet'
 
 function App() {
     return (
-        <><Helmet>
-            <body className="navbar is-fixed-top"/>
-        </Helmet>
-        <HomePage />
+        <>
+            <HomePage />
 
         </>
     )

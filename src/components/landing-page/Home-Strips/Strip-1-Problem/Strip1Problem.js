@@ -3,7 +3,7 @@ import React from 'react'
 const StripOne = () => (
     <section id="strip-one">
         <div>
-            <h2 >
+            <h2>
             You can&apos;t find your Twitter community and it&apos;s starting to
             get frustrating.
             </h2>
