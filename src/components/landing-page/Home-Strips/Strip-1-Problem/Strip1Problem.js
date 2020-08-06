@@ -3,9 +3,9 @@ import React from 'react'
 const StripOne = () => (
     <section id="strip-one">
         <div className="strip-one-body">
-            <div className="strip-one-container">
+            <div className="container strip-one">
 
-                <h2 className="strip-one-title">
+                <h2 className="title is-1 is-size-2-mobile">
             You can&apos;t find your Twitter community and it&apos;s starting to
             get frustrating.
                 </h2>
