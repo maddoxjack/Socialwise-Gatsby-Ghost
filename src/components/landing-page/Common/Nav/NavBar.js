@@ -1,13 +1,22 @@
 import React from "react"
 import "../../../../styles/bul-styles.scss"
+import './styles.scss'
+
 import Logo from "../../../common/Logo/index"
 import { Link } from "gatsby"
+
+const linkStyle = {
+    color: `black`,
+    textDecoration: `none`,
+    fontSize: `medium`,
+    
+}
 
 export default function NavBarHomePage() {
     const [isActive, setisActive] = React.useState(false)
     console.log(`is active state`, isActive)
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <Link to="/" style={{ textDecoration: `none` }}>
                     <div className="navbar-item">
@@ -34,20 +43,20 @@ export default function NavBarHomePage() {
             >
 
                 <div className="navbar-end">                
-                    <a className="navbar-item"><Link to="/blog">Blog</Link></a>
+                    <a className="navbar-item"><Link to="/blog" style={linkStyle}>Blog</Link></a>
 
-                    <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-link">Other Offerings</a>
+                    <div className="navbar-item has-dropdown is-hoverable is-black">
+                        <a className="navbar-link" style={linkStyle}>Other Offerings</a>
 
                         <div className="navbar-dropdown">
-                            <a className="navbar-item"><Link to="/enterprise">Enterprise</Link></a>
-                            <a className="navbar-item">
-                                <Link to="/football">
+                            <a className="navbar-item"><Link to="/enterprise" style={linkStyle}>Enterprise</Link></a>
+                            <a className="navbar-item is-black">
+                                <Link to="/football" style={linkStyle}>
                                 Football
                                 </Link>
                             </a>
                             <a className="navbar-item">
-                                <Link to="/contact">
+                                <Link to="/contact" style={linkStyle}>
                                 Contact
                                 </Link>
                             </a>                        
@@ -58,7 +67,7 @@ export default function NavBarHomePage() {
                             <a className="button is-primary is-large">
                                 <strong>Build Your Dashboard</strong>
                             </a>
-                            <a className="button is-light is-large">Log in</a>
+                            <a className="button is-light is-large"><strong>Log in</strong></a>
                         </div>
                     </div>
                 </div>
