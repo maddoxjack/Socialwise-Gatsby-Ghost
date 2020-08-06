@@ -1,17 +1,21 @@
-import React from "react";
-import HomePage from "./Home-Strips/home";
+import React from "react"
+import HomePage from "./Home-Strips/home"
 // import '../../styles/app.css'
-import "../../styles/bul-styles.scss";
+import "../../styles/bul-styles.scss"
+import { Helmet } from 'react-helmet'
 
 function App() {
     return (
-        <>
-            <HomePage />
+        <><Helmet>
+            <body className="navbar is-fixed-top"/>
+        </Helmet>
+        <HomePage />
+
         </>
-    );
+    )
 }
 
-export default App;
+export default App
 
 {
     /* <Link to="/blog">
