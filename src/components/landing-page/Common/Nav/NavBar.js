@@ -74,5 +74,3 @@ export default function NavBarHomePage() {
         </nav>
     )
 }
-
-// export default NavBarHomePage
