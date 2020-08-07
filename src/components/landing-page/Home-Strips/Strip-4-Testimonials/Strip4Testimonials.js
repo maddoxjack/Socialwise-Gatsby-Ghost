@@ -1,9 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-    faBullhorn,
-    faNewspaper,
-    faLightbulb,
+    faQuoteRight,
 } from "@fortawesome/free-solid-svg-icons"
 import "./styles.scss"
 
@@ -12,32 +10,50 @@ const StripFour = () => (
         <div className="strip-four-body">
             <div className="container strip-four">
                 <h2 className="title is-1 is-size-2-mobile">
-What others have to say                </h2>
+                    What others have to say{` `}
+                </h2>
                 <div className="columns first-row">
                     <div className="column one">
-                        <FontAwesomeIcon icon={faLightbulb} className="icons" />
-                        <h3>Your Brand</h3>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <h3>Casey, Co-Founder @ Refrag</h3>
                         <p>
-                            Track any mention of your brand across Twitter.
-                            Respond to good or bad news as soon as it happens.
+                            Big fan of being able to see everyone I need to
+                            engage with in one place. My profile views have gone
+                            way up.
                         </p>
+                        <FontAwesomeIcon
+                            icon={faQuoteRight}
+                            className="quote"
+                        />
                     </div>
                     <div className="column two">
-                        <FontAwesomeIcon icon={faBullhorn} className="icons" />
-                        <h3>Your Competition</h3>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <h3>Paul, Owner @ The Bagel Guys</h3>
                         <p>
-                            Swoop in on your competition&apos;s dissatisfied
-                            customers or see what good things are being said.
-                            Make better business decisions.
+                            As a small business Socialwise helped us stay across
+                            all the changes to our industry that have been
+                            happening at breakneck speed during coronavirus -
+                            best practices for serving customers safely, how and
+                            when we could operate, government aid available to
+                            us and our staff.
                         </p>
+                        <FontAwesomeIcon
+                            icon={faQuoteRight}
+                            className="quote"
+                        />
                     </div>
                     <div className="column three">
-                        <FontAwesomeIcon icon={faNewspaper} className="icons" />
-                        <h3>Your News</h3>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <h3>Pat, Product @ C-Port</h3>
                         <p>
-                            It&apos;ll become even easier to find new customers
-                            on Twitter.
+                            I was able to see global reaction to a product
+                            launch and gain valuable insight into user opinions
+                            in real-time.
                         </p>
+                        <FontAwesomeIcon
+                            icon={faQuoteRight}
+                            className="quote"
+                        />
                     </div>
                 </div>
             </div>
