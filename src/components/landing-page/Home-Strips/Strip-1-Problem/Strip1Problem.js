@@ -1,5 +1,6 @@
 import React from 'react'
 import StripOneImg from '../Images/Strip1Img'
+import './styles.scss'
 
 const StripOne = () => (
     <section id="strip-one">
