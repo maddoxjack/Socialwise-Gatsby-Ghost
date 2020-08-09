@@ -1,21 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Layout } from '../components/common'
-import StripOne from '../components/landing-page/Enterprise-Strips/Strip-1-Problem/Ent-1-Problem'
+import React from "react"
+import Football from "../components/landing-page/Football-Strips/Football"
+import NavBarHomePage from "../components/landing-page/Common/Nav/NavBar"
+import Footer from "../components/landing-page/Common/Footer/Footer"
 
-const EnterprisePage = () => (
-    <Layout>
-        <div className="container">
-            <article className="content" style={{ textAlign: `center` }}>
-                <h1 className="content-title">Error 404</h1>
-                <section className="content-body">
-                    FOOTBALLLLL!!!, <Link to="/">return home</Link> to start over
-                </section>
-            </article>
-        </div>
-        <StripOne />
-
-    </Layout>
+const FootballPage = () => (
+    <>
+        <NavBarHomePage />
+        <Football />
+        <Footer />
+    </>
 )
 
-export default EnterprisePage
+export default FootballPage

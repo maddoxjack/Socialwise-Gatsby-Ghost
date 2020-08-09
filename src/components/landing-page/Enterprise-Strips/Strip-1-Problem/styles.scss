@@ -1,0 +1,10 @@
+#benefits {
+    text-align: left;
+}
+
+@media (max-width: 769px) {
+    .columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}

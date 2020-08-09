@@ -1,0 +1,33 @@
+.hero {
+    padding-top: 15%;
+}
+
+.break {
+    width: 100%;
+}
+
+.hero-body {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    // color: black;
+    text-align: center;
+    // font-weight: bolder;
+}
+
+.sub-title {
+    text-align: center;
+    font-weight: normal;
+    margin: auto;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
