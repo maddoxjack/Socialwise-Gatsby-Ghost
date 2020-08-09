@@ -10,13 +10,17 @@ export default function StripThreeImg() {
                     childImageSharp {
                         # Specify the image processing specifications right in the query.
                         # Makes it trivial to update as your page's design changes.
-                        fluid(maxWidth: 1200) {
-                            ...GatsbyImageSharpFluid_withWebp
+                        fixed(width: 350) {
+                            ...GatsbyImageSharpFixed_withWebp
                         }
                     }
                 }
             }
         `
     )
-    return <Img fluid={data.stripthree.childImageSharp.fluid} />
+    return (
+        <Img style={{ borderRadius: `50%` }}
+            fixed={data.stripthree.childImageSharp.fixed}
+        />
+    )
 }

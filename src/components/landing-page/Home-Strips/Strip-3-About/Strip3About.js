@@ -33,7 +33,7 @@ const StripThree = () => (
                             </p>
                         </div>
                     </div>
-                    <div className="column" id="vector-img">
+                    <div className="column" id="headshot">
                         <StripThreeImg />
                     </div>
                 </div>

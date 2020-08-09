@@ -66,7 +66,7 @@ export default function NavBarHomePage() {
                             <a className="button is-primary is-large">
                                 <strong>Build Your Dashboard</strong>
                             </a>
-                            <a className="button is-light is-large"><strong>Log in</strong></a>
+                            <a href="https://beta.socialwise.io"className="button is-light is-large"><strong>Log in</strong></a>
                         </div>
                     </div>
                 </div>

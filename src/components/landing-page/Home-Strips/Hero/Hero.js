@@ -18,9 +18,12 @@ const Hero = () => (
                 </h2>
                 <div className="break"></div>
                 <div className="button-wrapper">
-                    <button className="button is-primary is-large is-full-width has-text-weight-bold">
+                    <a
+                        href="https://beta.socialwise.io/premier-league"
+                        className="button is-primary is-large is-full-width has-text-weight-bold"
+                    >
                         See what streaming content looks like
-                    </button>
+                    </a>
                 </div>
                 <div className="dashboard-wrapper is-hidden-mobile">
                     <HeroImg />
