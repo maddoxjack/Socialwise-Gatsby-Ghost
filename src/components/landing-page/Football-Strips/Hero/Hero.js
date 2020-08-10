@@ -7,7 +7,7 @@ import HeroImg from "../../Home-Strips/Images/HeroImg"
 const Hero = () => (
     <section className="hero">
         <div className="hero-body">
-            <div className="hero-container">
+            <div className="container" id="hero-text">
                 <h1 className="title has-text-weight-bold is-1 is-size-2-mobile has-text-left-mobile">
                     The Best Premier League Twitter Dashboard
                 </h1>
