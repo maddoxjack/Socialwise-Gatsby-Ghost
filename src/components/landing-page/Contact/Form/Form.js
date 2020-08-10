@@ -1,11 +1,13 @@
 import React from "react"
 import "../../../../styles/bul-styles.scss"
 import "./styles.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faUser, faEnvelope, faCheck } from "@fortawesome/free-solid-svg-icons"
 
 const ContactForm = () => (
     <section className="contact">
         <div className="contact-body">
-            <div className="contact-container">
+            <div className="container contact">
                 <h1 className="title has-text-weight-bold is-1 is-size-2-mobile has-text-left-mobile">
                     We would love to hear from you.
                 </h1>
@@ -18,21 +20,68 @@ const ContactForm = () => (
                 >
                     <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="contact" />
+                    <div className="field is-horizontal">
+                        <div className="field-label is-normal">
+                            <label className="label">From</label>
+                        </div>
+                        <div className="field-body">
+                            <div className="field">
+                                <p className="control is-expanded has-icons-left">
+                                    <input
+                                        className="input is-large"
+                                        type="text"
+                                        placeholder="Name"
+                                    />
+                                    <span className="icon is-small is-left">
+                                        <FontAwesomeIcon icon={faUser}/>
+                                    </span>
+                                </p>
+                            </div>
+                            <div className="field">
+                                <p className="control is-expanded has-icons-left has-icons-right">
+                                    <input
+                                        className="input is-success is-large"
+                                        type="email"
+                                        placeholder="Email"
+                                        
+                                    />
+                                    <span className="icon is-small is-left">
+                                        <FontAwesomeIcon iconn={faEnvelope}/>
+                                    </span>
+                                    <span className="icon is-small is-right">
+                                        <FontAwesomeIcon icon={faCheck}/>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-                    <label>
-                        Email
-                        <input type="email" name="email" />
-                    </label>
-                    <label>
-                        Name
-                        <input type="text" name="name" />
-                    </label>
+                    <div className="field is-horizontal">
+                        <div className="field-label is-normal">
+                            <label className="label">Question</label>
+                        </div>
+                        <div className="field-body">
+                            <div className="field">
+                                <div className="control">
+                                    <textarea
+                                        className="textarea is-large"
+                                        placeholder="Explain how we can help you"
+                                        nname="message"
+                                    ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* 
                     <label>
                         Message
                         <input type="text" name="message" />
-                    </label>
+                    </label> */}
                     <div className="button-wrapper">
-                        <button type="submit" className="button is-primary is-large is-full-width has-text-weight-bold">
+                        <button
+                            type="submit"
+                            className="button is-primary is-large is-full-width has-text-weight-bold"
+                        >
                             Submit
                         </button>
                     </div>
