@@ -46,7 +46,7 @@ const ContactForm = () => (
                                         
                                     />
                                     <span className="icon is-small is-left">
-                                        <FontAwesomeIcon iconn={faEnvelope}/>
+                                        <FontAwesomeIcon icon={faEnvelope}/>
                                     </span>
                                     <span className="icon is-small is-right">
                                         <FontAwesomeIcon icon={faCheck}/>
