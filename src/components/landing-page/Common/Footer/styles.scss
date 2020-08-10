@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-align: left;
+    font-size: small;
 }
 
 #company h6,
@@ -12,10 +13,16 @@
 }
 
 #footer-logo {
-    height: 12rem;
+    height: 10rem;
 }
 
 .footer {
     background-color: #4865ff;
     color: white;
+    margin-top: 10%;
+    padding-bottom: 0;
+}
+
+.content {
+    padding-top: 0;
 }
