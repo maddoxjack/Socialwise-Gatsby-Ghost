@@ -16,13 +16,21 @@
     height: 10rem;
 }
 
+#social li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: normal;
+}
+
 .footer {
     background-color: #4865ff;
     color: white;
     margin-top: 10%;
-    padding-bottom: 0;
+    padding-bottom: 25px;
 }
 
-.content {
+#footer-content {
     padding-top: 0;
 }
