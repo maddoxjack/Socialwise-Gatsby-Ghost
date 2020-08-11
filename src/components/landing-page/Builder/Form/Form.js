@@ -28,6 +28,7 @@ const BuilderForm = () => (
                                     className="input is-large"
                                     type="text"
                                     placeholder="e.g Alex Smith"
+                                    required
                                 />
                             </div>
                         </div>
@@ -39,6 +40,7 @@ const BuilderForm = () => (
                                     className="input is-large"
                                     type="email"
                                     placeholder="e.g. alexsmith@gmail.com"
+                                    required
                                 />
                             </div>
                         </div>
@@ -51,21 +53,21 @@ const BuilderForm = () => (
                                 <input
                                     className="input is-large"
                                     type="text"
-                                    placeholder="e.g Alex Smith"
+                                    placeholder="e.g Jamie Oliver, Richard Branson, Elonn Musk etc."
                                 />
                             </div>
                         </div>
 
                         <div className="field">
                             <label className="label is-large">
-                                Who is your target customer? What is their
-                                problem that you solve?
+                                What are your favorite sources for news that
+                                matters to your business?
                             </label>
                             <div className="control">
                                 <input
                                     className="input is-large"
-                                    type="email"
-                                    placeholder="e.g. alexsmith@gmail.com"
+                                    type="text"
+                                    placeholder="e.g. @business, @businessinsider, @etsy"
                                 />
                             </div>
                         </div>
@@ -76,21 +78,20 @@ const BuilderForm = () => (
                             <div className="control">
                                 <input
                                     className="input is-large"
-                                    type="email"
-                                    placeholder="e.g. alexsmith@gmail.com"
+                                    type="text"
+                                    placeholder="e.g. @Tesla, @Facebook"
                                 />
                             </div>
                         </div>
                         <div className="field">
                             <label className="label is-large">
-                                What are your favorite sources for news that
-                                effects your business?
+                                Who is your target customer &amp; what problem do you solve?
                             </label>
                             <div className="control">
-                                <input
-                                    className="input is-large"
-                                    type="email"
-                                    placeholder="e.g. alexsmith@gmail.com"
+                                <textarea
+                                    className="textarea is-large"
+                                    placeholder="Tell us more"
+                                    nname="message"
                                 />
                             </div>
                         </div>
@@ -110,6 +111,7 @@ const BuilderForm = () => (
                     </form>
                 </div>
                 <div className="break"></div>
+                <h3 className="sub-title is-size-3">Once submitted a representative will be in touch with a proposal in 24-48 hours.</h3>
             </div>
         </div>
     </section>

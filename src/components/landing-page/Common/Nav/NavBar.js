@@ -11,6 +11,11 @@ const linkStyle = {
     fontSize: `medium`,
     
 }
+const linkStyleTwo = {
+    color: `white`,
+    textDecoration: `none`,
+    fontSize: `medium`,
+}
 
 export default function NavBarHomePage() {
     const [isActive, setisActive] = React.useState(false)
@@ -81,7 +86,7 @@ export default function NavBarHomePage() {
                     <div className="navbar-item">
                         <div className="buttons">
                             <a className="button is-primary is-large">
-                                <Link to="/dashboard-builder">
+                                <Link to="/dashboard-builder" style={linkStyleTwo}>
                                     <strong>Build Your Dashboard</strong>
                                 </Link>
                             </a>
