@@ -1,4 +1,4 @@
-.contact {
+.builder {
     padding-top: 5%;
 }
 
@@ -6,10 +6,9 @@
     width: 100%;
 }
 
-.contact-body {
+.builder-body {
     padding-top: 10rem;
     display: flex;
-    justify-content: center;
 }
 
 .title {
@@ -32,7 +31,12 @@
     margin-bottom: 5rem;
 }
 
-.contact-form {
+.builder-form {
     padding-top: 5rem;
-    width: 90%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-wrapper {
 }

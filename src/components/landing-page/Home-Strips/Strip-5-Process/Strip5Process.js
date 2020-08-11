@@ -19,40 +19,36 @@ const StripFive = () => (
                     <div className="column" id="process-right">
                         <ol>
                             <li>
-                                <b>Book a Search</b>
-                                <br />
-                                Submit your industry and pay X with our
-                                Stripe-secured checkout. You&apos;ll receive a
-                                confirmation and an email to clarify your
-                                business persona and key competitor analysis.
-                                {` `}
-                            </li>
-                            <li>
                                 <b>Define Needs</b>
                                 <br />
-                                Submit your industry and pay X with our
-                                Stripe-secured checkout. You&apos;ll receive a
-                                confirmation and an email to clarify your
-                                business persona and key competitor analysis.
-                                {` `}
+                                Your dashboard is loaded with 5 content columns
+                                to get you started on your community discovery
+                                journey. Answer 5 quick questions about your
+                                business and pay £349 with our Stripe-secure
+                                checkout. You’ll receive a confirmation email
+                                and we take care of the rest.
                             </li>
                             <li>
-                                <b>Dashboard Publication</b>
+                                <b>Dashboard publication</b>
                                 <br />
-                                Submit your industry and pay X with our
-                                Stripe-secured checkout. You&apos;ll receive a
-                                confirmation and an email to clarify your
-                                business persona and key competitor analysis.
-                                {` `}
+                                We go over your needs and craft the perfect
+                                searches within 48 hours. We then put those
+                                searches into a nice and clean dashboard that’s
+                                exclusively yours.
                             </li>
                             <li>
                                 <b>Engage away</b>
                                 <br />
-                                Submit your industry and pay X with our
-                                Stripe-secured checkout. You&apos;ll receive a
-                                confirmation and an email to clarify your
-                                business persona and key competitor analysis.
-                                {` `}
+                                Customers, community and competition
+                                conversations are all right in front of you.
+                                Time to engage with your community and increase
+                                your profile views.
+                            </li>
+                            <li>
+                                <b>Analytics addiction</b>
+                                <br />
+                                Your future customers are now in front of you.
+                                Engage and increase your conversions.
                             </li>
                         </ol>
                     </div>
