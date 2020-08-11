@@ -1,7 +1,7 @@
 import React from "react"
 import "../../../../styles/bul-styles.scss"
 import "./styles.scss"
-
+import FootHeroImg from "../Images/FootHeroStrip1Img"
 import HeroImg from "../../Home-Strips/Images/HeroImg"
 
 const Hero = () => (
@@ -14,6 +14,9 @@ const Hero = () => (
                 <h2 className="sub-title is-size-3 has-text-left-mobile pb-6">
                     Since no one else has made one.
                 </h2>
+                <div className="fan-wrapper">
+                    <FootHeroImg/>
+                </div>
                 <div className="break"></div>
                 <div className="button-wrapper">
                     <a

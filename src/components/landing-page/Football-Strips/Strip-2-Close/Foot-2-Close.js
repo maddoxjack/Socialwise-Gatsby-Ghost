@@ -1,5 +1,5 @@
 import React from "react"
-import StripSixImg from "../../Home-Strips/Images/Strip6Img"
+import FootStripTwoImg from "../Images/FootStrip2Img"
 import "./styles.scss"
 
 const FootStripTwo = () => (
@@ -25,7 +25,7 @@ const FootStripTwo = () => (
                         </p>
                     </div>
                     <div className="column" id="vector-img-closing">
-                        <StripSixImg />
+                        <FootStripTwoImg />
                     </div>
                 </div>
                 <div className="button-wrapper-close">
