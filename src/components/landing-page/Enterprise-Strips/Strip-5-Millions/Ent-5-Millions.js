@@ -1,6 +1,6 @@
 import React from "react"
 import "./styles.scss"
-import EntStripTwoImg from "../Images/EntStrip2Img"
+import EntStripFiveImg from "../Images/EntStrip5Img"
 
 const EntStripFive = () => (
     <section id="strip-five">
@@ -20,7 +20,7 @@ const EntStripFive = () => (
                 </div>
             </div>
             <div className="vector-wrapper">
-                <EntStripTwoImg />
+                <EntStripFiveImg />
             </div>
         </div>
     </section>

@@ -1,5 +1,5 @@
 import React from "react"
-import EntStripTwoImg from "../Images/EntStrip2Img"
+import EntStripEightImg from "../Images/EntStrip8Img"
 import "./styles.scss"
 
 const EntStripEight = () => (
@@ -11,7 +11,7 @@ const EntStripEight = () => (
                 </h2>
                 <div className="columns" id="process">
                     <div className="column" id="vector-img-process">
-                        <EntStripTwoImg />
+                        <EntStripEightImg />
                     </div>
                     <div className="column" id="process-right">
                         <ol>

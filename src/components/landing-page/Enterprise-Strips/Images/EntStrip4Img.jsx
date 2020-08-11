@@ -2,12 +2,12 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-export default function EntStripTwoImg() {
+export default function EntStripFourImg() {
     const data = useStaticQuery(
         graphql`
             query {
-                striptwo: file(
-                    relativePath: { eq: "ent-strip-2-services.png" }
+                stripfour: file(
+                    relativePath: { eq: "ent-strip-4-services.png" }
                 ) {
                     childImageSharp {
                         # Specify the image processing specifications right in the query.
@@ -20,5 +20,5 @@ export default function EntStripTwoImg() {
             }
         `
     )
-    return <Img fluid={data.striptwo.childImageSharp.fluid} />
+    return <Img fluid={data.stripfour.childImageSharp.fluid} />
 }

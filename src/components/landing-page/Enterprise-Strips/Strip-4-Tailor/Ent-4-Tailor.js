@@ -1,6 +1,6 @@
 import React from "react"
 import "./styles.scss"
-import EntStripTwoImg from "../Images/EntStrip2Img"
+import EntStripFourImg from "../Images/EntStrip4Img"
 
 const EntStripFour = () => (
     <section id="strip-four">
@@ -13,7 +13,7 @@ const EntStripFour = () => (
                         </p>
                     </div>
                     <div className="column two" id="service-img">
-                        <EntStripTwoImg />
+                        <EntStripFourImg />
                     </div>
                 </div>
             </div>
