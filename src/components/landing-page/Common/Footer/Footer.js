@@ -1,19 +1,18 @@
-import React from "react";
-import "../../../../styles/bul-styles.scss";
-import "./styles.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react"
+import "../../../../styles/bul-styles.scss"
+import "./styles.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
     faTwitter,
     faLinkedinIn,
     faFacebookF,
-} from "@fortawesome/free-brands-svg-icons";
-// import FooterImg from "../../Images/FooterImg"
-import logoText from "../../../../images/logoText.png";
-import { Link } from "gatsby";
+} from "@fortawesome/free-brands-svg-icons"
+import logoText from "../../../../images/logoText.png"
+import { Link } from "gatsby"
 
 const linkStyle = {
     color: `white`,
-};
+}
 
 const Footer = () => (
     <footer className="footer">
@@ -44,27 +43,29 @@ const Footer = () => (
                             </Link>
                         </li>
                         <li>
-                            <Link to="/privacy-policy" style={linkStyle}></Link>
-                            Privacy Policy
+                            <Link to="/privacy-policy" style={linkStyle}>
+                                Privacy Policy
+                            </Link>
                         </li>
-                        <li>Email Us</li>
+                        <li><a style={linkStyle}href="mailto:jack@socialwise.io">Email Us</a></li>
                     </ul>
                 </div>
                 <div className="column three" id="social">
                     <ul>
                         <li>
-                            <FontAwesomeIcon icon={faTwitter} />
+                            <a href="https://twitter.com/socialwiseio"><FontAwesomeIcon icon={faTwitter} /></a>
                         </li>
                         <li>
-                            <FontAwesomeIcon icon={faFacebookF} />
+                            <a href="https://facebook.com/socialwiseio">
+                                <FontAwesomeIcon icon={faFacebookF} /></a>
                         </li>
                         <li>
-                            <FontAwesomeIcon icon={faLinkedinIn} />
+                            <a href="https://www.linkedin.com/company/socialwiseio/">
+                                <FontAwesomeIcon icon={faLinkedinIn} /></a>
                         </li>
                     </ul>
                 </div>
                 <div className="column four" id="footer-logo">
-                    {/* <FooterImg /> */}
                     <div id="logo-footer">
                         <img
                             src={logoText}
@@ -76,6 +77,6 @@ const Footer = () => (
             </div>
         </div>
     </footer>
-);
+)
 
-export default Footer;
+export default Footer

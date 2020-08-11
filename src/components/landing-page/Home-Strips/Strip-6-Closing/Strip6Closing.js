@@ -27,7 +27,7 @@ const StripSix = () => (
                 </div>
                 <div className="button-wrapper-close">
                     <button className="button is-primary is-large is-full-width has-text-weight-bold" id="closing-button">
-                        Build my community dashboard for £149
+                        Build My Community Dashboard
                     </button>
                 </div>
             </div>
