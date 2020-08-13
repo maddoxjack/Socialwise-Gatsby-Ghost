@@ -1,7 +1,9 @@
 #benefits {
     text-align: left;
 }
-
+ul {
+    list-style-type: none;
+}
 @media (max-width: 769px) {
     .columns {
         flex-direction: column-reverse;

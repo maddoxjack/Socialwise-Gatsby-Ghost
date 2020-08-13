@@ -9,3 +9,10 @@
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
+
+@media (max-width: 769px) {
+    #closing-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}

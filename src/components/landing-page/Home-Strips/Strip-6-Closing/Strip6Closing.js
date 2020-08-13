@@ -10,7 +10,7 @@ const StripSix = () => (
                     Stop Searching For The Wrong Audience. Leave The Search To
                     Us.
                 </h2>
-                <div className="columns" id="closing">
+                <div className="columns" id="closing-columns">
                     <div className="column" id="closing-text">
                         <p>
                             Spend less on chasing wild leads and more on those
@@ -25,8 +25,12 @@ const StripSix = () => (
                         <StripSixImg />
                     </div>
                 </div>
+
                 <div className="button-wrapper-close">
-                    <button className="button is-primary is-large is-full-width has-text-weight-bold" id="closing-button">
+                    <button
+                        className="button is-primary is-large is-full-width has-text-weight-bold"
+                        id="closing-button"
+                    >
                         Build My Community Dashboard
                     </button>
                 </div>

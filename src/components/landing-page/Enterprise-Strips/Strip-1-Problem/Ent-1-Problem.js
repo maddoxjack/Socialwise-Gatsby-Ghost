@@ -19,11 +19,29 @@ const StripOne = () => (
                         <h3>Socialwise Benefits:</h3>
                         <div>
                             <ul>
-                                <li>✅ Real-time information from Twitter to help you make better business decisions and sales intelligence.</li>
-                                <li>✅ Presented in our clean dashboard or direct to your business via our API or email.</li>
-                                <li>✅ Improve your social selling by monitoring leads and acting at the right moment.</li>
-                                <li>✅ No need to learn any complicated tools.</li>
-                                <li>✅ Proprietary search algorithms to pre-vet Twitter users talking about things that matter to you.
+                                <li>
+                                    ✅&nbsp; Real-time information from Twitter
+                                    to help you make better business decisions
+                                    and sales intelligence.
+                                </li>
+                                <li>
+                                    ✅&nbsp; Presented in our clean dashboard or
+                                    direct to your business via our API or
+                                    email.
+                                </li>
+                                <li>
+                                    ✅&nbsp; Improve your social selling by
+                                    monitoring leads and acting at the right
+                                    moment.
+                                </li>
+                                <li>
+                                    ✅&nbsp; No need to learn any complicated
+                                    tools.
+                                </li>
+                                <li>
+                                    ✅&nbsp; Proprietary search algorithms to
+                                    pre-vet Twitter users talking about things
+                                    that matter to you.
                                 </li>
                             </ul>
                         </div>

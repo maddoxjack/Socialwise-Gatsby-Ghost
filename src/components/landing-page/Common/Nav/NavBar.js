@@ -1,7 +1,6 @@
 import React from "react"
 import "../../../../styles/bul-styles.scss"
 import './styles.scss'
-
 import Logo from "../../../common/Logo/index"
 import { Link } from "gatsby"
 

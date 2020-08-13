@@ -6,8 +6,12 @@
     padding-top: 4rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 @media (max-width: 769px) {
-    .columns {
+    #problems-columns {
         flex-direction: column-reverse;
         display: flex;
     }
