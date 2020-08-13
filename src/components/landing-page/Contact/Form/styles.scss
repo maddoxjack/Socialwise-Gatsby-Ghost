@@ -26,8 +26,8 @@
 
 .button-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
@@ -35,4 +35,9 @@
 .contact-form {
     padding-top: 5rem;
     width: 90%;
+}
+
+.form-wrapper {
+    margin-left: auto;
+    margin-right: auto;
 }

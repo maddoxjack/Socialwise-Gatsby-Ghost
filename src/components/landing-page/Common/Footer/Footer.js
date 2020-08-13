@@ -8,6 +8,7 @@ import {
     faFacebookF,
 } from "@fortawesome/free-brands-svg-icons"
 import logoText from "../../../../images/logoText.png"
+import FooterLogoImg from "../../Images/FooterLogo"
 import { Link } from "gatsby"
 
 const linkStyle = {
@@ -67,11 +68,7 @@ const Footer = () => (
                 </div>
                 <div className="column four" id="footer-logo">
                     <div id="logo-footer">
-                        <img
-                            src={logoText}
-                            alt="logo with text"
-                            id="footer-logo"
-                        />
+                        <FooterLogoImg/>
                     </div>
                 </div>
             </div>

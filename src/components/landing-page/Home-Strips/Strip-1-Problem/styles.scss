@@ -2,6 +2,10 @@
     text-align: left;
 }
 
+.columns {
+    padding-top: 4rem;
+}
+
 @media (max-width: 769px) {
     .columns {
         flex-direction: column-reverse;
