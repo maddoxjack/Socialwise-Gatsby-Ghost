@@ -28,6 +28,7 @@ const BuilderForm = () => (
                                     className="input is-large"
                                     type="text"
                                     placeholder="e.g Alex Smith"
+                                    name="name"
                                     required
                                 />
                             </div>
@@ -40,6 +41,7 @@ const BuilderForm = () => (
                                     className="input is-large"
                                     type="email"
                                     placeholder="e.g. alexsmith@gmail.com"
+                                    name="email"
                                     required
                                 />
                             </div>
@@ -54,6 +56,7 @@ const BuilderForm = () => (
                                     className="input is-large"
                                     type="text"
                                     placeholder="e.g Jamie Oliver, Richard Branson, Elonn Musk etc."
+                                    name="industry examples"
                                 />
                             </div>
                         </div>
@@ -68,6 +71,7 @@ const BuilderForm = () => (
                                     className="input is-large"
                                     type="text"
                                     placeholder="e.g. @business, @businessinsider, @etsy"
+                                    name="fav sources"
                                 />
                             </div>
                         </div>
@@ -80,18 +84,20 @@ const BuilderForm = () => (
                                     className="input is-large"
                                     type="text"
                                     placeholder="e.g. @Tesla, @Facebook"
+                                    name="competition"
                                 />
                             </div>
                         </div>
                         <div className="field">
                             <label className="label is-large">
-                                Who is your target customer &amp; what problem do you solve?
+                                Who is your target customer &amp; what problem
+                                do you solve?
                             </label>
                             <div className="control">
                                 <textarea
                                     className="textarea is-large"
                                     placeholder="Tell us more"
-                                    nname="message"
+                                    name="target customer"
                                 />
                             </div>
                         </div>
@@ -111,7 +117,10 @@ const BuilderForm = () => (
                     </form>
                 </div>
                 <div className="break"></div>
-                <h3 className="sub-title is-size-3">Once submitted a representative will be in touch with a proposal in 24-48 hours.</h3>
+                <h3 className="sub-title is-size-3">
+                    Once submitted a representative will be in touch with a
+                    proposal in 24-48 hours.
+                </h3>
             </div>
         </div>
     </section>

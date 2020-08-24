@@ -32,6 +32,8 @@ const ContactForm = () => (
                                             className="input is-large"
                                             type="text"
                                             placeholder="Name"
+                                            name="name"
+                                            required
                                         />
                                         <span className="icon is-small is-left">
                                             <FontAwesomeIcon icon={faUser} />
@@ -41,18 +43,18 @@ const ContactForm = () => (
                                 <div className="field">
                                     <p className="control is-expanded has-icons-left has-icons-right">
                                         <input
-                                            className="input is-success is-large"
+                                            className="input  is-large"
                                             type="email"
                                             placeholder="Email"
+                                            name="email"
+                                            required
                                         />
                                         <span className="icon is-small is-left">
                                             <FontAwesomeIcon
                                                 icon={faEnvelope}
                                             />
                                         </span>
-                                        <span className="icon is-small is-right">
-                                            <FontAwesomeIcon icon={faCheck} />
-                                        </span>
+                                       
                                     </p>
                                 </div>
                             </div>
@@ -68,7 +70,8 @@ const ContactForm = () => (
                                         <textarea
                                             className="textarea is-large"
                                             placeholder="Explain how we can help you"
-                                            nname="message"
+                                            name="message"
+                                            required
                                         ></textarea>
                                     </div>
                                 </div>
