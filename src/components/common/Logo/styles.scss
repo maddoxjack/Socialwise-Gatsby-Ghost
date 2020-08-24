@@ -6,12 +6,12 @@
     justify-content: center;
     font-size: 24px;
     font-weight: bold;
-    color: black;
+    // color: black;
     margin-left: 1.5rem;
     flex-wrap: wrap;
     text-decoration: none;
     img {
-        width: 50px;
+        width: 60px;
     }
     &.small {
         font-size: 24px;
@@ -22,11 +22,24 @@
     }
 }
 
+// #logo-heart {
+//     width: 150px;
+//     height: 150px;
+// }
+
+#logo-text {
+    font-family: "Varela Round", sans-serif;
+    color: #2d2d2d;
+}
+
 .navbar-burger {
     height: 4.5rem;
     width: 4.5rem;
 }
 
+.navbar-item img {
+    max-height: 3rem;
+}
 @media only screen and (max-width: $tablet) {
     #logo {
         margin-left: 0;
