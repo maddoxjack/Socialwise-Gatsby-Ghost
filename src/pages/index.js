@@ -1,12 +1,12 @@
 import React from "react"
-import HomePage from '../components/landing-page/Home-Strips/home'
+import Enterprise from "../components/landing-page/Enterprise-Strips/Enterprise"
 import NavBarHomePage from '../components/landing-page/Common/Nav/NavBar'
 import Footer from '../components/landing-page/Common/Footer/Footer'
 
 const Landing = () => (
     <>
         <NavBarHomePage/>
-        <HomePage />
+        <Enterprise />
         <Footer/>
     </>
 )

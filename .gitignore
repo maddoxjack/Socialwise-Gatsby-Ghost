@@ -71,6 +71,7 @@ typings/
 # Docs Custom
 .cache/
 public
+public-v1
 yarn-error.log
 .netlify/
 

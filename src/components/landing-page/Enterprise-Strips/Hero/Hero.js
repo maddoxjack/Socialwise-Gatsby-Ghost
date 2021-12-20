@@ -21,11 +21,15 @@ const Hero = () => (
 
                 <div className="button-wrapper">
                     <a
-                        href="https://beta.socialwise.io/premier-league"
+                        href="https://www.socialwise.io/dashboard-builder"
                         className="button is-primary is-large is-full-width has-text-weight-bold"
                     >
-                        See what streaming content looks like
+                        Submit Application Request
                     </a>
+
+                </div>
+                <div className="button-subtext">
+                    <p>Only suitable applications are currently being accepted due to demand.</p>
                 </div>
                 <div className="dashboard-wrapper">
                     <HeroImg />

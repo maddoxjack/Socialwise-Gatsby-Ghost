@@ -1,30 +1,30 @@
-.hero {
-    padding-top: 15%;
+.football-hero {
+    padding-top: 10%;
 }
 
-.break {
+.football-break {
     width: 100%;
 }
 
-.hero-body {
+.football-hero-body {
     padding-top: 10rem;
     display: flex;
     justify-content: center;
 }
 
-.title {
+.football-title {
     // color: black;
     text-align: center;
     // font-weight: bolder;
 }
 
-.sub-title {
+.football-sub-title {
     text-align: center;
     font-weight: normal;
     margin: auto;
 }
 
-.button-wrapper {
+.football-button-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
     margin-bottom: 5rem;
 }
 
-.fan-wrapper {
+.football-fan-wrapper {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;

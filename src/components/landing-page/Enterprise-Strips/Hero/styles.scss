@@ -1,13 +1,10 @@
-.hero {
-    padding-top: 15%;
-}
 
 .break {
     width: 100%;
 }
 
 .hero-body {
-    padding-top: 10rem;
+    padding-top: 15rem;
     display: flex;
     justify-content: center;
 }
@@ -29,5 +26,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+}
+
+.button-subtext {
+text-align: center;
+font-weight: normal;
+color:black;
 }

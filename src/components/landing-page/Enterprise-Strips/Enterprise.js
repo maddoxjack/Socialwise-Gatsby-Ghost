@@ -17,11 +17,11 @@ const Enterprise = () => (
         <main id="homePage">
             <Hero />
             <StripOne />
-            <EntStripTwo />
-            <EntStripThree/>
-            <EntStripFour/>
-            <EntStripFive/>
-            <EntStripSix/>
+            {/* <EntStripTwo /> */}
+            {/* <EntStripThree/> */}
+            {/* <EntStripFour/> */}
+            {/* <EntStripFive/> */}
+            {/* <EntStripSix/> */}
             <EntStripSeven/>
             <EntStripEight/>
             <EntStripNine/>

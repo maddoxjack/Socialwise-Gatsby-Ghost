@@ -8,7 +8,7 @@ const linkStyle = {
     color: `black`,
     textDecoration: `none`,
     fontSize: `medium`,
-    
+
 }
 const linkStyleTwo = {
     color: `white`,
@@ -59,7 +59,7 @@ export default function NavBarHomePage() {
                         </Link>
                     </a>
 
-                    <div className="navbar-item has-dropdown is-hoverable is-black">
+                    {/* <div className="navbar-item has-dropdown is-hoverable is-black">
                         <a className="navbar-link" style={linkStyle}>
                             Other Offerings
                         </a>
@@ -81,7 +81,7 @@ export default function NavBarHomePage() {
                                 </Link>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="navbar-item">
                         <div className="buttons">
                             <a className="button is-primary is-large">
@@ -89,7 +89,7 @@ export default function NavBarHomePage() {
                                     to="/dashboard-builder"
                                     style={linkStyleTwo}
                                 >
-                                    <strong>Build Your Dashboard</strong>
+                                    <strong>Submit Request</strong>
                                 </Link>
                             </a>
                             <a

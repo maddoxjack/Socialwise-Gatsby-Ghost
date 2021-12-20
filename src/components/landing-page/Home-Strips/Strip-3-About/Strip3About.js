@@ -5,11 +5,11 @@ const StripThree = () => (
     <section id="strip-Three">
         <div className="strip-Three-body">
             <div className="container strip-Three">
-                <h2 className="title is-1 is-size-2-mobile">
+                <h2 className="title is-1 is-size-2-mobile" id="about-title">
                     What makes us the right team for the job?
                 </h2>
                 <div className="columns">
-                    <div className="column" id="benefits">
+                    <div className="column" id="about">
                         <div>
                             <p>
                                 Most people can say that they&apos;ve built the tool,
@@ -35,6 +35,7 @@ const StripThree = () => (
                     </div>
                     <div className="column" id="headshot">
                         <StripThreeImg />
+                        <p>Jack Maddox, Founder</p>
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@ const Footer = () => (
     <footer className="footer">
         <div className="content has-text-centered" id="footer-content">
             <div className="columns" id="footer-columns">
-                <div className="column one" id="how-to">
+                {/* <div className="column one" id="how-to">
                     <ul>
                         <li>
                             <h6>HOW TO</h6>
@@ -32,7 +32,7 @@ const Footer = () => (
                             </Link>
                         </li>
                     </ul>
-                </div>
+                </div> */}
                 <div className="column two" id="company">
                     <ul>
                         <li>
@@ -54,14 +54,11 @@ const Footer = () => (
                 <div className="column three" id="social">
                     <ul>
                         <li>
-                            <a href="https://twitter.com/socialwiseio"><FontAwesomeIcon icon={faTwitter} /></a>
+                            <a href="https://twitter.com/maddoxjack"><FontAwesomeIcon icon={faTwitter} /></a>
                         </li>
+
                         <li>
-                            <a href="https://facebook.com/socialwiseio">
-                                <FontAwesomeIcon icon={faFacebookF} /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/company/socialwiseio/">
+                            <a href="https://www.linkedin.com/maddoxjack/">
                                 <FontAwesomeIcon icon={faLinkedinIn} /></a>
                         </li>
                     </ul>

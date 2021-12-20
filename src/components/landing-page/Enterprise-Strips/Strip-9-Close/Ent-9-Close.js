@@ -9,28 +9,19 @@ const EntStripNine = () => (
                 <h2 className="title is-1 is-size-2-mobile">
                     We build software solutions for that crazy idea you had.
                 </h2>
-                <div className="columns" id="closing">
-                    <div className="column" id="closing-text">
-                        <p>
-                            For all those times you&apos;ve sat in a meeting
-                            room and said to yourself,
-                            <br />
-                            <br />
-                            &quot;I just wish we could do...&quot; <br />
-                            <br />
-                            With Socialwise we make your idea happen.
-                        </p>
-                    </div>
-                    <div className="column" id="vector-img-closing">
-                        <StripSixImg />
-                    </div>
+
+                <div id="ent-closing-text">
+                    <p>For all those times you&apos;ve sat in a meeting room and said to yourself, &quot;I just wish we could do...&quot; With Socialwise we make your idea happen.
+                    </p>
                 </div>
-                <div className="button-wrapper-close">
-                    <button
+                <div className="button-wrapper">
+                    <a
+                        href="https://www.socialwise.io/dashboard-builder"
                         className="button is-primary is-large is-full-width has-text-weight-bold"
-                        id="closing-button"
                     >
-Get in touch and let&apos;s make it real.                    </button>
+                        Submit Application Request
+                    </a>
+
                 </div>
             </div>
         </div>

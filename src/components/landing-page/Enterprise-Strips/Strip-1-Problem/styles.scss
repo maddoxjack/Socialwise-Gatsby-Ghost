@@ -1,9 +1,23 @@
-#benefits {
+#problems {
     text-align: left;
+    margin-top: 5rem;
 }
-ul {
+#problems ul {
     list-style-type: none;
+    font-size: 2rem;
+    font-weight: normal;
+    color: black;
 }
+
+#problems li{
+    padding: 1rem;
+}
+
+#tweetdeck-img {
+    padding-top: 5rem;
+}
+
+
 @media (max-width: 769px) {
     .columns {
         flex-direction: column-reverse;
