@@ -5,9 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
     faTwitter,
     faLinkedinIn,
-    faFacebookF,
 } from "@fortawesome/free-brands-svg-icons"
-import logoText from "../../../../images/logoText.png"
 import FooterLogoImg from "../../Images/FooterLogo"
 import { Link } from "gatsby"
 
@@ -65,7 +63,7 @@ const Footer = () => (
                 </div>
                 <div className="column four" id="footer-logo">
                     <div id="logo-footer">
-                        <FooterLogoImg/>
+                        <FooterLogoImg />
                     </div>
                 </div>
             </div>
