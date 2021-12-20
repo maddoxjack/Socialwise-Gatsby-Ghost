@@ -1,6 +1,6 @@
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 export default function FooterLogoImg() {
     const data = useStaticQuery(
@@ -17,6 +17,6 @@ export default function FooterLogoImg() {
                 }
             }
         `
-    );
-    return <Img fluid={data.footerlogo.childImageSharp.fluid} />;
+    )
+    return <Img fluid={data.footerlogo.childImageSharp.fluid} />
 }
